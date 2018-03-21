@@ -1,0 +1,129 @@
+object CheckCommand "get_DL303_C02" {
+    import "plugin-check-command"	
+    command = [ SysconfDir + "/icinga2/scripts/get_DL303_C02.py" ]
+}
+
+object CheckCommand "get_DL303_Dewp" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_DL303_Dewp.py" ]
+}
+
+object CheckCommand "get_DL303_Humi" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_DL303_Humi.py" ]
+}
+
+object CheckCommand "get_DL303_Temp" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_DL303_Temp.py" ]
+}
+
+object CheckCommand "get_ET7044_Status_A" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_A.py" ]
+}
+
+object CheckCommand "get_ET7044_Status_B" {	
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_B.py" ]
+}
+
+object CheckCommand "get_ET7044_Status_C" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_C.py" ]
+}
+
+object CheckCommand "get_ET7044_Status_D" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_D.py" ]
+}
+
+object CheckCommand "get_ET7044_Status_E.py" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_E.py" ]
+}
+
+object CheckCommand "get_ET7044_Status_F.py" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_F.py" ]
+}
+
+object CheckCommand "get_ET7044_Status_G" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_G.py" ]
+}
+
+object CheckCommand "get_PM3133_I_a" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_I_a.py" ]
+}
+
+object CheckCommand "get_PM3133_I_b" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_I_b.py" ]
+}
+
+object CheckCommand "get_PM3133_I_c" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_I_c.py" ]
+}
+
+object CheckCommand "get_PM3133_V_a" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_V_a.py" ]
+}
+
+object CheckCommand "get_PM3133_V_b" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_V_b.py" ]
+}
+
+object CheckCommand "get_PM3133_V_c" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_V_c.py" ]
+}
+
+object CheckCommand "get_PM3133_kVA_a" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kVA_a.py" ]
+}
+
+object CheckCommand "get_PM3133_kVA_b" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kVA_b.py" ]
+}
+
+object CheckCommand "get_PM3133_kVA_c" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kVA_c.py" ]
+}
+
+object CheckCommand "get_PM3133_kvar_a" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kvar_a.py" ]
+}
+
+object CheckCommand "get_PM3133_kvar_b" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kvar_b.py" ]
+}
+
+object CheckCommand "get_PM3133_kvar_c" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kvar_c.py" ]
+}
+
+object CheckCommand "get_PM3133_kW_a" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kW_a.py" ]
+}
+
+object CheckCommand "get_PM3133_kW_b" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kW_b.py" ]
+}
+
+object CheckCommand "get_PM3133_kW_c" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_PM3133_kW_c.py" ]
+}
