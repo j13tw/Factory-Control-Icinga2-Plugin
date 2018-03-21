@@ -90,7 +90,7 @@ apply Service "PM3133_kVA_a"{
 
 apply Service "PM3133_kvar_a"{
     import "generic-service"
-    check_command = "get_PM3133_kvar_b"
+    check_command = "get_PM3133_kvar_a"
     assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
