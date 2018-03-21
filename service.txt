@@ -10,6 +10,18 @@ apply Service "DL303_Dewp"{
     assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
+apply Service "DL303_Humi"{
+    import "generic-service"
+    check_command = "get_DL303_Humi"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
+}
+
+apply Service "DL303_Temp"{
+    import "generic-service"
+    check_command = "get_DL303_Temp"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
+}
+
 apply Service "ET7044_Status_A"{
     import "generic-service"
     check_command = "get_ET7044_Status_A"
