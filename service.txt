@@ -1,149 +1,149 @@
 apply Service "DL303_C02"{
     import "generic-service"
     check_command = "get_DL303_C02"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "DL303_Dewp"{
     import "generic-service"
-    check_command = "DL303_Dewp"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    check_command = "get_DL303_Dewp"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "ET7044_Status_A"{
     import "generic-service"
     check_command = "get_ET7044_Status_A"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "ET7044_Status_B"{
     import "generic-service"
     check_command = "get_ET7044_Status_B"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "ET7044_Status_C"{
     import "generic-service"
     check_command = "get_ET7044_Status_C"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "ET7044_Status_D"{
     import "generic-service"
     check_command = "get_ET7044_Status_D"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "ET7044_Status_E"{
     import "generic-service"
     check_command = "get_ET7044_Status_E"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "ET7044_Status_F"{
     import "generic-service"
     check_command = "get_ET7044_Status_F"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "ET7044_Status_G"{
     import "generic-service"
     check_command = "get_ET7044_Status_G"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "ET7044_Status_H"{
     import "generic-service"
     check_command = "get_ET7044_Status_H"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_I_a"{
     import "generic-service"
     check_command = "get_PM3133_I_a"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_V_a"{
     import "generic-service"
     check_command = "get_PM3133_V_a"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kVA_a"{
     import "generic-service"
     check_command = "get_PM3133_kVA_a"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kvar_a"{
     import "generic-service"
     check_command = "get_PM3133_kvar_b"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kW_a"{
     import "generic-service"
     check_command = "get_PM3133_kW_a"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_I_b"{
     import "generic-service"
     check_command = "get_PM3133_I_b"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_V_b"{
     import "generic-service"
     check_command = "get_PM3133_V_b"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kVA_b"{
     import "generic-service"
     check_command = "get_PM3133_kVA_b"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kvar_b"{
     import "generic-service"
     check_command = "get_PM3133_kvar_b"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kW_b"{
     import "generic-service"
     check_command = "get_PM3133_kW_b"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_I_c"{
     import "generic-service"
     check_command = "get_PM3133_I_c"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_V_c"{
     import "generic-service"
     check_command = "get_PM3133_V_c"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kVA_c"{
     import "generic-service"
     check_command = "get_PM3133_kVA_c"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kvar_c"{
     import "generic-service"
     check_command = "get_PM3133_kvar_c"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }
 
 apply Service "PM3133_kW_c"{
     import "generic-service"
     check_command = "get_PM3133_kW_c"
-    assign where host.address && host.name == "PowerMeter_Monitor"
+    assign where host.address && host.name == "Factory_Control_Monitor(艾訊)"
 }

@@ -38,12 +38,12 @@ object CheckCommand "get_ET7044_Status_D" {
     command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_D.py" ]
 }
 
-object CheckCommand "get_ET7044_Status_E.py" {
+object CheckCommand "get_ET7044_Status_E" {
     import "plugin-check-command"
     command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_E.py" ]
 }
 
-object CheckCommand "get_ET7044_Status_F.py" {
+object CheckCommand "get_ET7044_Status_F" {
     import "plugin-check-command"
     command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_F.py" ]
 }
@@ -51,6 +51,11 @@ object CheckCommand "get_ET7044_Status_F.py" {
 object CheckCommand "get_ET7044_Status_G" {
     import "plugin-check-command"
     command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_G.py" ]
+}
+
+object CheckCommand "get_ET7044_Status_H" {
+    import "plugin-check-command"
+    command = [ SysconfDir + "/icinga2/scripts/get_ET7044_Status_H.py" ]
 }
 
 object CheckCommand "get_PM3133_I_a" {
