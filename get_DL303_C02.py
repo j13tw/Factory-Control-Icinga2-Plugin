@@ -24,7 +24,7 @@ if response == 0:						# check network sevice & server is on
 		value = r.content.decode('utf-8')	# get return json value
 		key = json.loads(value)
 		DL303_co2 = key['DL303_co2']
-		print ('DL303_co2 = ' + DL303_co2)																							#
+		print ('DL303_co2 = ' + DL303_co2 + ' ppm')																							#
 		sys.exit(0)
 	else:
 	   	print ('http://' + hostname +':' + port + ' Service Port Found !')

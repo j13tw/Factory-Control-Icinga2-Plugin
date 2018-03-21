@@ -25,7 +25,7 @@ if response == 0:						# check network sevice & server is on
 		key = json.loads(value)
 		PM3133_A_Json = key['PM3133_A_Json']
 		I_a = PM3133_A_Json['I_a']
-		print ('PM3133_I_a = ' + I_a)																								#
+		print ('PM3133_I_a = ' + I_a + ' A')																								#
 		sys.exit(0)
 	else:
 	   	print ('http://' + hostname +':' + port + ' Service Port Found !')
