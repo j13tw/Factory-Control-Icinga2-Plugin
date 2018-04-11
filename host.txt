@@ -1,4 +1,4 @@
-object Host "UPS_Monitor"{
+object Host "Factory_Control_Monitor(艾訊)"{
 	import "generic-host"
 	display_name="Factory_Control_Monitor(艾訊)"
 	address = "127.0.0.1"
